@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "skimmonkey",
+    "description": "Quickly skim webpages and articles ",
+    "version": "1.0",
+    "action": {
+        "default_title": "Click to skim"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
